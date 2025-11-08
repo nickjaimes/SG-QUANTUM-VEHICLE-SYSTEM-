@@ -1,0 +1,4 @@
+from safeway_guardian.examples import commercial_fleet
+
+fleet_manager = commercial_fleet.FleetOperationsManager()
+fleet_optimization = fleet_manager.optimize_delivery_fleet()
