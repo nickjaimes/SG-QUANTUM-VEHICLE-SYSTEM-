@@ -1,0 +1,9 @@
+# Clone the vehicle system repository
+git clone https://github.com/nicolas-santiago/sg-quantum-vehicle-system.git
+cd sg-quantum-vehicle-system
+
+# Install automotive dependencies
+pip install -r requirements.txt
+
+# Install in development mode
+pip install -e .
