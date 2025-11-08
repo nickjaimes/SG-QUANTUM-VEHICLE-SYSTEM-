@@ -1,0 +1,4 @@
+from safeway_guardian.examples import passenger_cars
+
+car_manager = passenger_cars.PassengerCarManager()
+family_car_health = car_manager.manage_family_vehicle(vehicle_id)
