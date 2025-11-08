@@ -1,0 +1,11 @@
+# Run comprehensive vehicle tests
+pytest tests/test_vehicle_core.py
+
+# Test automotive AI algorithms
+pytest tests/test_automotive_ai.py
+
+# Vehicle security testing
+pytest tests/test_vehicle_security.py
+
+# Performance benchmarking
+python -m safeway_guardian.testing.automotive_benchmark
