@@ -1,0 +1,4 @@
+from safeway_guardian.examples import autonomous_vehicles
+
+av_manager = autonomous_vehicles.AutonomousVehicleManager()
+safety_assurance = av_manager.ensure_autonomous_safety()
